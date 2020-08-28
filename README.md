@@ -3,6 +3,8 @@ Compile and run a Java file with one command
 
 This may be used with or without attribution to me
 
+Please do not use this for malicious purposes
+
 I referred to [Steve Jansen's batch scripting tutorial](http://steve-jansen.github.io/guides/windows-batch-scripting/index.html), [Microsoft documentation of Windows commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands), the output of SET /?, and the output of if /?
 
 # unimportant information
