@@ -10,5 +10,4 @@ IF NOT EXIST "%jsrc%" (
 ECHO error: did not find file named %jsrc%
 EXIT /B 1
 )
-javac %jsrc%
-java %jsrc%
+javac %jsrc% && java %jsrc%
