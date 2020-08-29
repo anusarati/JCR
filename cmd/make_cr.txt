@@ -1,0 +1,1 @@
+(echo @ECHO off& echo SETLOCAL& echo IF "%1"=="" (& echo ECHO error: please specify the source file& echo EXIT /B 1& echo ^)& echo SET jsrc=%1& echo IF NOT "%jsrc:~-5%"==".java" SET jsrc=%1.java& echo javac %jsrc% ^&^& java %jsrc%) > cr.cmd
