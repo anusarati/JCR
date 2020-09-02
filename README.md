@@ -1,7 +1,7 @@
 # JCR
 Compile and run a Java file with one command
 
-This may be used with or without attribution to me (author's initials are X. L., Mr. K.)
+This may be used with or without attribution to me
 
 Please do not use this for malicious purposes
 

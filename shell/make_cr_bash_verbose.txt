@@ -1,0 +1,1 @@
+printf "#%c/bin/sh\nif ! [ \$1 ]\nthen\n\techo \"error: please specify the source file\"\n\texit 1\nfi\n\nif [ \"\${1:0,-5}\" = .java ]\nthen jsrc=\$1\nelse jsrc=\$1.java\nfi\n\n{ echo \"javac \$jsrc\"; javac \$jsrc; } && { echo \"java \$jsrc\"; java \$jsrc; }" '!' > cr.sh; chmod u+x cr.sh; echo "alias cr=./cr.sh" >> ~/.bashrc; . ~/.bashrc
