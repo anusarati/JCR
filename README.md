@@ -1,5 +1,5 @@
 # JCR
-Compile and run a Java file with one command
+Compile and run a Java file 
 
 This may be used with or without attribution to me
 
@@ -15,3 +15,5 @@ Please do not use this for malicious purposes
 [Bash guide](https://github.com/Idnan/bash-guide)
 
 [Scripting OS X](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Batch_file)
